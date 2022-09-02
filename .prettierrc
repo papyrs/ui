@@ -1,0 +1,10 @@
+{
+  "printWidth": 100,
+  "singleQuote": true,
+  "arrowParens": "always",
+  "bracketSpacing": false,
+  "bracketSameLine": true,
+  "trailingComma": "none",
+  "pluginSearchDirs": ["."],
+  "overrides": [{"files": "*.svelte", "options": {"parser": "svelte"}}]
+}
