@@ -17,5 +17,9 @@
     margin: 0.75rem 0;
 
     @include shadow.extra-strong;
+
+    @supports (-webkit-touch-callout: none) {
+      bottom: env(safe-area-inset-bottom);
+    }
   }
 </style>
