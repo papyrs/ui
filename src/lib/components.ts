@@ -5,3 +5,4 @@ export {default as InfiniteContent} from './components/InfiniteContent.svelte';
 export {default as Modal} from './components/Modal.svelte';
 export {default as Popover} from './components/Popover.svelte';
 export {default as Spinner} from './components/Spinner.svelte';
+export {default as Toolbar} from './components/Toolbar.svelte';
