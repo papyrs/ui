@@ -36,6 +36,13 @@
     margin: 0 auto 1.75rem;
   }
 
+  // Reset section in case the user copy+paste such elements
+  > section {
+    width: auto;
+    max-width: inherit;
+    margin: 0 auto 1.75rem;
+  }
+
   li {
     margin: 0 auto 1.25rem;
   }
