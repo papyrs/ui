@@ -36,8 +36,8 @@
     margin: 0 auto 1.75rem;
   }
 
-  // Reset section in case the user copy+paste such elements
-  > section {
+  // Reset section and header in case the user copy+paste such elements
+  > section, > header {
     width: auto;
     max-width: inherit;
     margin: 0 auto 1.75rem;
