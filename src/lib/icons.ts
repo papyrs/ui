@@ -27,3 +27,5 @@ export {default as IconTelegram} from './icons/IconTelegram.svelte';
 export {default as IconTwitter} from './icons/IconTwitter.svelte';
 export {default as IconUser} from './icons/IconUser.svelte';
 export {default as IconCloud} from './icons/IconCloud.svelte';
+export {default as IconChatBubbleOutline} from './icons/IconChatBubbleOutline.svelte';
+export {default as IconThumbUp} from './icons/IconThumbUp.svelte';

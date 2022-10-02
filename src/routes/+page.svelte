@@ -1,3 +1,10 @@
+<script lang="ts">
+    import Toolbar from "../lib/components/BottomBar.svelte";
+    import IconChatBubbleOutline from "$lib/icons/IconChatBubbleOutline.svelte";
+    import IconThumbUp from "$lib/icons/IconThumbUp.svelte";
+    import IconShare from "$lib/icons/IconShare.svelte";
+</script>
+
 <main>
     <article class="deckgo-doc">
         <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus vitae tortor sit amet ullamcorper. Maecenas pellentesque sit amet dolor sit amet efficitur. Quisque tortor erat, venenatis vitae lorem eget, posuere auctor risus. Cras fringilla metus id elit ultrices placerat. Vestibulum pulvinar convallis aliquet. Cras condimentum, ligula sed lacinia venenatis, nisi libero euismod sapien, et mattis orci est quis nulla. Vivamus sed purus posuere ligula rhoncus tempus.</div>
@@ -10,4 +17,20 @@
 
         <div>Mauris metus turpis, ullamcorper nec elit id, eleifend scelerisque lorem. Curabitur id est lacus. Fusce sapien metus, ultrices a molestie sed, porta in elit. Nullam condimentum elit id odio tincidunt, non malesuada neque sodales. Morbi gravida quam at mauris mattis, a consequat quam gravida. Duis interdum nibh vulputate, finibus turpis nec, placerat mauris. Nullam fermentum consequat tincidunt. Nulla facilisi. Donec id eros at dolor volutpat mollis ut non quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus venenatis nunc mauris, eu bibendum neque semper id. Integer nec lacus ligula.</div>
     </article>
+
+    <Toolbar>
+        <button class="icon"><IconThumbUp /></button>
+        <button class="icon like"><IconChatBubbleOutline /></button>
+        <button class="icon"><IconShare /></button>
+    </Toolbar>
 </main>
+
+<style lang="scss">
+    button {
+      height: 100%;
+    }
+
+    .like {
+      padding-top: 0.85rem;
+    }
+</style>

@@ -1,5 +1,5 @@
-@use "./shadow";
-@use "./section";
+@use './shadow';
+@use './section';
 
 @mixin article {
   @include shadow.strong;
@@ -86,7 +86,7 @@
   }
 
   hr:before {
-    content: "▪▪▪";
+    content: '▪▪▪';
     display: inline-block;
     color: black;
     position: absolute;
@@ -116,6 +116,6 @@
 
 @mixin placeholder {
   :global(figcaption:empty:not(:focus):after) {
-    content: "Type caption for image (optional)";
+    content: 'Type caption for image (optional)';
   }
 }

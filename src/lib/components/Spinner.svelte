@@ -7,7 +7,9 @@
     display: block;
 
     background: transparent;
-    border: 3px solid var(--spinner-color, black);
+    border: var(--spinner-border-size, 3px) solid var(--spinner-color, black);
+
+    margin: var(--spinner-margin);
 
     width: var(--spinner-size);
     height: var(--spinner-size);

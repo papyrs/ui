@@ -1,9 +1,13 @@
-<!-- https://fonts.google.com/icons?selected=Material%20Icons%20Sharp%3Ashare%3A -->
+<!-- source: https://fonts.google.com/icons?selected=Material%20Icons%20Sharp%3Aios_share%3A -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
   height="24px"
   viewBox="0 0 24 24"
   width="24px"
   fill="currentColor"
-  ><path d="M0 0h24v24H0V0z" fill="none" /><path
-    d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z" /></svg>
+  ><g><rect fill="none" height="24" width="24" /></g><g
+    ><g
+      ><polygon points="20,8 15,8 15,10 18,10 18,21 6,21 6,10 9,10 9,8 4,8 4,23 20,23" /><polygon
+        points="11,16 13,16 13,5 16,5 12,1 8,5 11,5" /></g
+    ></g
+  ></svg>

@@ -116,7 +116,7 @@
   .content {
     position: relative;
 
-    padding: 0 2.45rem;
+    padding: var(--modal-content-padding, 0 2.45rem);
 
     overflow: scroll;
     height: calc(100% - 60px);
