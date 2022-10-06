@@ -118,7 +118,7 @@
 
     padding: var(--modal-content-padding, 0 2.45rem);
 
-    overflow: scroll;
+    overflow: auto;
     height: calc(100% - 60px);
     max-height: calc(100% - 60px);
 
