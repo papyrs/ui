@@ -1,4 +1,8 @@
-<aside role="toolbar">
+<script lang="ts">
+  export let columns = 3;
+</script>
+
+<aside role="toolbar" style={`--bottom-bar-columns: ${columns}`}>
   <slot />
 </aside>
 
@@ -12,7 +16,7 @@
     transform: translate(-50%, 0);
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(var(--bottom-bar-columns), 1fr);
 
     margin: 0.75rem 0;
 
