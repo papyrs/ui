@@ -1,5 +1,5 @@
 <!-- https://fonts.google.com/icons?selected=Material%20Icons%20Sharp%3Async%3A -->
-<!-- Tweaked -->
+<!-- Tweaked and animated -->
 <svg
   width="24"
   height="24"
@@ -13,3 +13,16 @@
       style="fill-rule:nonzero;" />
   </g>
 </svg>
+
+<style lang="scss">
+  svg {
+    animation: rotate 4s linear infinite;
+  }
+
+  /* -global- */
+  @keyframes -global-rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
