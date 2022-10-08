@@ -29,3 +29,4 @@ export {default as IconUser} from './icons/IconUser.svelte';
 export {default as IconCloud} from './icons/IconCloud.svelte';
 export {default as IconChatBubbleOutline} from './icons/IconChatBubbleOutline.svelte';
 export {default as IconThumbUp} from './icons/IconThumbUp.svelte';
+export {default as IconHome} from './icons/IconHome.svelte';
