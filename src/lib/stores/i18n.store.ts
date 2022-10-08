@@ -63,8 +63,6 @@ export const initI18n = () => {
     switchLang: async (lang: Languages) => {
       const bundle: I18n = await loadLanguage(lang);
       set(bundle);
-
-      localStorage.setItem('lang', lang);
     }
   };
 };
