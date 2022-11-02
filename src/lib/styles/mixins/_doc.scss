@@ -37,7 +37,8 @@
   }
 
   // Reset section and header in case the user copy+paste such elements
-  > section, > header {
+  // They might be applied as direct descendant or even sub-elements like article > section
+  section, header {
     width: auto;
     max-width: inherit;
     margin: 0 auto 1.75rem;
