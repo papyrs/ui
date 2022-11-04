@@ -15,6 +15,8 @@
     left: 50%;
     transform: translate(-50%, 0);
 
+    z-index: var(--z-index);
+
     display: grid;
     grid-template-columns: repeat(var(--bottom-bar-columns), 1fr);
 
