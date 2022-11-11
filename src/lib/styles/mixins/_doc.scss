@@ -113,6 +113,16 @@
   * {
     word-break: break-word;
   }
+
+  > blockquote {
+    border-left: 3px solid black;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin: 0 0 1.75rem -23px;
+    font-weight: bold;
+    font-style: italic;
+  }
 }
 
 @mixin placeholder {
