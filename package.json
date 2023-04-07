@@ -1,7 +1,7 @@
 {
   "name": "@papyrs/ui",
   "description": "The UI library of Papyrs",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "author": "David Dal Busco <david@fluster.io>",
   "license": "AGPL-3.0-or-later",
   "scripts": {
